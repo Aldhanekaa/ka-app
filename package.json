@@ -15,7 +15,8 @@
     "start": "electron .",
     "pack": "electron-builder --dir",
     "dist": "electron-builder --macos --linux --windows",
-    "release": "np"
+    "release": "np",
+    "test": "echo 'done testing!'"
   },
   "dependencies": {
     "electron-context-menu": "^3.0.0",
